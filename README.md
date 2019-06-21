@@ -1,2 +1,2 @@
 # charts
-Helm Charts
+Chart Repo
