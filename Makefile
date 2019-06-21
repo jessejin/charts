@@ -1,8 +1,5 @@
 
 
-clean:
-	rm -rf d
-
 index:
 	cd docs && helm repo index --url https://qamatic.github.io/charts/ ./
 
