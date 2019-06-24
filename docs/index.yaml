@@ -3,9 +3,9 @@ entries:
   pact-broker:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-06-21T16:49:38.761358-04:00"
+    created: "2019-06-24T15:22:16.358491-04:00"
     description: A Helm chart for Pact-Broker
-    digest: b5890a962c9f4d9200aad46668abbdfa3ef118e1917b8b3589118f3046bdb0d9
+    digest: bab9df1b620c1dd701d64a7de5fbf9f19c99ac9a92ab669ffd35a4b98900cc22
     icon: https://qamatic.github.io/qamatic-assets/logo-m.png
     maintainers:
     - email: senips@gmail.com
@@ -16,4 +16,4 @@ entries:
     urls:
     - https://qamatic.github.io/charts/pact-broker-0.1.0.tgz
     version: 0.1.0
-generated: "2019-06-21T16:49:38.76078-04:00"
+generated: "2019-06-24T15:22:16.357497-04:00"
