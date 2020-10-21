@@ -3,7 +3,7 @@ entries:
   pact-broker:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-10-21T01:09:45.5410285-07:00"
+    created: "2020-10-21T01:11:55.9419113-07:00"
     description: A Helm chart for Pact-Broker
     digest: 7fc1834b2ca228114912bac5ace4e243e5ba5d6c2d3d4f668f97f798c5663550
     maintainers:
@@ -14,4 +14,17 @@ entries:
     urls:
     - https://jessejin.github.io/charts/pact-broker-0.1.1.tgz
     version: 0.1.1
-generated: "2020-10-21T01:09:45.5389378-07:00"
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-10-21T01:11:55.9409111-07:00"
+    description: A Helm chart for Pact-Broker
+    digest: ed5211f5c09b0bca5b23720b0382fc70f0947fbbfc471a9f7a6f3cefc8a5debc
+    maintainers:
+    - name: Jesse Jin
+    name: pact-broker
+    sources:
+    - https://github.com/jessejin/helm-charts
+    urls:
+    - https://jessejin.github.io/charts/pact-broker-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-10-21T01:11:55.9348975-07:00"
