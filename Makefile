@@ -1,9 +1,9 @@
 
 
 index:
-	cd docs && helm repo index --url https://qamatic.github.io/charts/ ./
+	cd docs && helm repo index --url https://jessejin.github.io/charts/ ./
 
 publish:
-	git add docs/*
+	git add *
 	git commit -m "charts republished"
 	git push
