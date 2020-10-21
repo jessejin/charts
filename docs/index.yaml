@@ -3,7 +3,24 @@ entries:
   pact-broker:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2020-10-21T01:49:06.0601765-07:00"
+    created: "2020-10-21T02:01:20.3910925-07:00"
+    dependencies:
+    - name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.6.4
+    description: A Helm chart for Pact-Broker
+    digest: aebf216b161055d06795dd6d0dfc9237a6ba2f91a43d6eb9ac3a0b7217107966
+    maintainers:
+    - name: Jesse Jin
+    name: pact-broker
+    sources:
+    - https://github.com/jessejin/helm-charts
+    urls:
+    - https://jessejin.github.io/charts/pact-broker-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2020-10-21T02:01:20.3880919-07:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -20,7 +37,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2020-10-21T01:49:06.0581754-07:00"
+    created: "2020-10-21T02:01:20.3860787-07:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -37,7 +54,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2020-10-21T01:49:06.0561625-07:00"
+    created: "2020-10-21T02:01:20.3840783-07:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -54,7 +71,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-10-21T01:49:06.0551686-07:00"
+    created: "2020-10-21T02:01:20.3830844-07:00"
     description: A Helm chart for Pact-Broker
     digest: 7fc1834b2ca228114912bac5ace4e243e5ba5d6c2d3d4f668f97f798c5663550
     maintainers:
@@ -67,7 +84,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-10-21T01:49:06.0541571-07:00"
+    created: "2020-10-21T02:01:20.3810904-07:00"
     description: A Helm chart for Pact-Broker
     digest: ed5211f5c09b0bca5b23720b0382fc70f0947fbbfc471a9f7a6f3cefc8a5debc
     maintainers:
@@ -78,4 +95,4 @@ entries:
     urls:
     - https://jessejin.github.io/charts/pact-broker-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-21T01:49:06.0521617-07:00"
+generated: "2020-10-21T02:01:20.3790837-07:00"
