@@ -3,7 +3,24 @@ entries:
   pact-broker:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2020-10-21T18:29:33.6123457-07:00"
+    created: "2020-10-21T19:09:08.9494368-07:00"
+    dependencies:
+    - name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.6.4
+    description: A Helm chart for Pact-Broker
+    digest: d9a260690e159e4e476c81f67e8bf5e5ca2f5e38a42d1eceab52894a7d7b9fb2
+    maintainers:
+    - name: Jesse Jin
+    name: pact-broker
+    sources:
+    - https://github.com/jessejin/helm-charts
+    urls:
+    - https://jessejin.github.io/charts/pact-broker-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2020-10-21T19:09:08.9474301-07:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -18,4 +35,4 @@ entries:
     urls:
     - https://jessejin.github.io/charts/pact-broker-0.2.0.tgz
     version: 0.2.0
-generated: "2020-10-21T18:29:33.6083572-07:00"
+generated: "2020-10-21T19:09:08.9434358-07:00"
